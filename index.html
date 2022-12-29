@@ -1,283 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="code-slash.svg" type="image/svg+xml">
-</head>
-<body style="background-color: #aaf0d1;">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="shortcut icon" href="code-slash.svg" type="image/svg+xml" />
+  </head>
+  <body style="background-color: #aaf0d1">
     <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">Sejutaimpian</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                </li>    
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About Me</a>
-                </li>    
-                <li class="nav-item">
-                    <a class="nav-link" href="#strength">My Strength</a>
-                </li>    
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Project</a>
-                </li>    
-                <li class="nav-item">
-                    <a class="nav-link" href="#sertificates">Sertificate</a>
-                </li>    
-            </ul>
-            <div class="d-grid my-2 my-md-0">
-                <a href="mailto:derissulistina@gmail.com" class="btn btn-primary"><i class="bi bi-person-bounding-box pe-2"></i>Hire Me</a>
+      <div class="container">
+        <a class="navbar-brand" href="#">Sejutaimpian</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#strength">My Strength</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sertificates">Sertificate</a>
+            </li>
+          </ul>
+          <div class="d-grid my-2 my-md-0">
+            <a href="mailto:derissulistina@gmail.com" class="btn btn-primary"
+              ><i class="bi bi-person-bounding-box pe-2"></i>Hire Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="container" id="home">
+      <div class="row">
+        <div class="col-md-6 mx-auto text-center shadow py-3 px-2 bg-light">
+          <img
+            src="image/profile.jpg"
+            alt=""
+            class="rounded-circle border border-3 border-secondary"
+            style="max-height: 200px"
+          />
+          <h1 class="mb-0 mt-2">Eris Sulistina</h1>
+          <p class="text-secondary">Web Developer</p>
+          <p class="fs-5 mb-0">
+            Nama saya Eris Sulistina, nama lain saya adalah
+            <strong>sejutaimpian</strong>.
+          </p>
+        </div>
+      </div>
+      <div class="row text-center bg-light shadow rounded mt-3 mt-md-4 mx-2">
+        <a
+          href="https://drive.google.com/file/d/1bXtUxi_KmV1qEjuF0IxYLzkJiIQbF4aA/view?usp=sharing"
+          class="col-2 text-decoration-none my-4 my-md-2"
+        >
+          <div>
+            <i class="bi bi-file-earmark-pdf"></i>
+          </div>
+          <div class="d-none d-md-block">
+            <div>Download CV</div>
+          </div>
+        </a>
+        <a
+          href="mailto:derissulistina@gmail.com"
+          class="col-2 text-decoration-none my-4 my-md-2"
+        >
+          <div>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="d-none d-md-block">
+            <div>Mail</div>
+          </div>
+        </a>
+        <a
+          href="https://wa.me/6281324462989"
+          class="col-2 text-decoration-none my-4 my-md-2"
+        >
+          <div>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+          <div class="d-none d-md-block">
+            <div>Whatsapp</div>
+          </div>
+        </a>
+        <a
+          href="https://www.instagram.com/deris_sulistina"
+          class="col-2 text-decoration-none my-4 my-md-2"
+        >
+          <div>
+            <i class="bi bi-instagram"></i>
+          </div>
+          <div class="d-none d-md-block">
+            <div>Instagram</div>
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/eris-sulistina-422a66194"
+          class="col-2 text-decoration-none my-4 my-md-2"
+        >
+          <div>
+            <i class="bi bi-linkedin"></i>
+          </div>
+          <div class="d-none d-md-block">
+            <div>Linkedin</div>
+          </div>
+        </a>
+        <a
+          href="https://github.com/sejutaimpian"
+          class="col-2 text-decoration-none my-4 my-md-2"
+        >
+          <div>
+            <i class="bi bi-github"></i>
+          </div>
+          <div class="d-none d-md-block">
+            <div>Github</div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="container pt-5" id="about">
+      <div class="row my-3 flex-row flex-md-row-reverse">
+        <div class="col-md-6 align-self-center">
+          <img
+            src="image/business-pitch.png"
+            alt="Ilustration"
+            class="img-fluid px-2 px-md-1"
+          />
+        </div>
+        <div class="col-md-6">
+          <h1 class="fw-bolder text-center">ABOUT ME</h1>
+          <p>
+            Aku menjadi seorang web developer melalui perjalanan yang panjang
+            dalam pencarian jati diri programmer. Hasil dari pencarian itu
+            adalah “Aku Seorang Web Developer”. Konsekuensi dari hasil
+            pencarianku itu adalah aku harus selalu belajar teknologi, harus
+            selalu mengasah kemampuan, harus selalu sharing kepada calon-calon
+            developer, dan pantang berputus asa dalam situasi dan kondisi
+            apapun.
+          </p>
+          <p>
+            Dalam hal pekerjaan, tentu saja aku akan jujur, bertanggungjawab,
+            profesional, dan terbuka kepada atasan. Karena kunci hubungan yang
+            baik adalah komunikasi.
+          </p>
+          <p>
+            Perihal <i>hard skill</i>, tentu saja saya menguasai HTML, CSS,
+            Javascript, PHP dan MySQL. Saat ini saya telah berhasil membuat
+            beberapa project menggunakan web framework
+            <a href="https://codeigniter.com/" class="text-decoration-none"
+              >Codeigniter4</a
+            >
+            dan mulai beralih ke
+            <a href="https://laravel.com/" class="text-decoration-none"
+              >Laravel9</a
+            >
+          </p>
+          <p>
+            Perihal <i>soft skill</i>, saya banyak mengikuti organisasi
+            mahasiswa di Kampus sehingga saya banyak belajar mengenai
+            <i
+              >leadership, organizational development, event organizing, time
+              management, professionalism, responsibility, and more</i
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container pt-5" id="strength">
+      <div class="row my-3">
+        <div class="col-md-6 align-self-center">
+          <img
+            src="image/business-data.png"
+            alt="Ilustration"
+            class="img-fluid px-5"
+          />
+        </div>
+        <div class="col-md-6">
+          <h1 class="fw-bolder text-center">MY STRENGTH</h1>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <h4 class="mb-1">Basic Knowledge</h4>
+              <div class="row">
+                <div class="col-7">
+                  <i class="bi bi-check-circle pe-2"></i
+                  ><span class="d-none d-lg-inline"
+                    >Hypertext Markup Language</span
+                  ><span class="d-inline d-lg-none">HTML</span>
+                </div>
+                <div class="col-5">
+                  <span class="badge bg-success rounded-pill float-end"
+                    >Advanced</span
+                  >
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-7">
+                  <i class="bi bi-check-circle pe-2"></i
+                  ><span class="d-none d-lg-inline">Cascade Style Sheet</span
+                  ><span class="d-inline d-lg-none">CSS</span>
+                </div>
+                <div class="col-5">
+                  <span class="badge bg-success rounded-pill float-end"
+                    >Advanced</span
+                  >
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-7">
+                  <i class="bi bi-check-circle pe-2"></i>Javascript
+                </div>
+                <div class="col-5">
+                  <span class="badge bg-success rounded-pill float-end"
+                    >Advanced</span
+                  >
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-7">
+                  <i class="bi bi-check-circle pe-2"></i>PHP
+                </div>
+                <div class="col-5">
+                  <span class="badge bg-success rounded-pill float-end"
+                    >Advanced</span
+                  >
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-7">
+                  <i class="bi bi-check-circle pe-2"></i>NodeJS
+                </div>
+                <div class="col-5">
+                  <span class="badge bg-danger rounded-pill float-end"
+                    >Basic</span
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <h4 class="mb-1">Database Management System</h4>
+              <div>
+                <i class="bi bi-check-circle pe-2"></i>MySQL/MariaDB
+                <span class="badge bg-success rounded-pill float-end"
+                  >Advanced</span
+                >
+              </div>
+            </li>
+            <li class="list-group-item">
+              <h4 class="mb-1">CSS Framework</h4>
+              <div>
+                <i class="bi bi-check-circle pe-2"></i>Bootstrap
+                <span class="badge bg-success rounded-pill float-end"
+                  >Advanced</span
+                >
+              </div>
+              <div>
+                <i class="bi bi-check-circle pe-2"></i>TailwindCSS
+                <span class="badge bg-secondary rounded-pill float-end"
+                  >Intermediate</span
+                >
+              </div>
+            </li>
+            <li class="list-group-item">
+              <h4 class="mb-1">Web Framework</h4>
+              <div>
+                <i class="bi bi-check-circle pe-2"></i>Codeigniter4
+                <span class="badge bg-success rounded-pill float-end"
+                  >Advanced</span
+                >
+              </div>
+              <div>
+                <i class="bi bi-check-circle pe-2"></i>Laravel9
+                <span class="badge bg-secondary rounded-pill float-end"
+                  >Intermediate</span
+                >
+              </div>
+              <div>
+                <i class="bi bi-check-circle pe-2"></i>ReactJS
+                <span class="badge bg-danger rounded-pill float-end"
+                  >Basic</span
+                >
+              </div>
+            </li>
+            <li class="list-group-item">
+              <h4 class="mb-1">Application Programming Interface</h4>
+              <div>
+                <i class="bi bi-check-circle pe-2"></i>Restfull API
+                <span class="badge bg-success rounded-pill float-end"
+                  >Advanced</span
+                >
+              </div>
+              <div>
+                <i class="bi bi-check-circle pe-2"></i>OpenApi
+                <span class="badge bg-danger rounded-pill float-end"
+                  >Basic</span
+                >
+              </div>
+            </li>
+            <li class="list-group-item">
+              <h4 class="mb-1">Version Control System</h4>
+              <div>
+                <i class="bi bi-check-circle pe-2"></i>Github
+                <span class="badge bg-success rounded-pill float-end"
+                  >Advanced</span
+                >
+              </div>
+              <div>
+                <i class="bi bi-check-circle pe-2"></i>Git
+                <span class="badge bg-success rounded-pill float-end"
+                  >Advanced</span
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="container pt-5" id="projects">
+      <div class="row my-3 g-2">
+        <div class="col-12">
+          <h1 class="fw-bolder text-center">My Projects</h1>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img
+              src="image/sifoster.png"
+              class="card-img-top border-bottom"
+              alt="Foto project sifoster"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sifoster</h5>
+              <p class="card-text">
+                Sifoster adalah singkatan dari sistem informasi terpadu. Project
+                ini saya dibangun untuk memenuhi tugas kuliah. Project ini saya
+                jadikan open source untuk membantu teman-teman kuliah saya yang
+                kesulitan dalam menyelesaikan tugasnya.
+              </p>
+              <a
+                href="https://github.com/sejutaimpian/sifoster"
+                class="btn btn-primary float-end"
+                ><i class="bi bi-link-45deg pe-2"></i>Kunjungi Repository</a
+              >
             </div>
           </div>
         </div>
-    </nav>
-    <section class="container" id="home">
-        <div class="row">
-            <div class="col-md-6 mx-auto text-center shadow py-3 px-2 bg-light">
-                <img src="image/profile.jpg" alt="" class="rounded-circle border border-3 border-secondary" style="max-height: 200px;">
-                <h1 class="mb-0 mt-2">Eris Sulistina</h1>
-                <p class="text-secondary">Web Developer</p>
-                <p class="fs-5 mb-0">Nama saya Eris Sulistina, nama lain saya adalah <strong>sejutaimpian</strong>.</p>
+        <div class="col-md-6">
+          <div class="card">
+            <img
+              src="image/upgradedhibahweb.png"
+              class="card-img-top border-bottom"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Upgradedhibahweb</h5>
+              <p class="card-text">
+                Upgradedhibahweb adalah sistem informasi untuk organisasi
+                kemahasiswaan. Project ini tidak saya bangun dari nol, tapi saya
+                hanya mengupgrade teknologi codeigniter3 menjadi Codeigniter4
+                dan memperbaiki hal-hal kecil yang menurut saya salah dan kurang
+                tepat
+              </p>
+              <a
+                href="https://github.com/sejutaimpian/upgrading-to-ci4"
+                class="btn btn-primary float-end"
+                ><i class="bi bi-link-45deg pe-2"></i>Kunjungi Repository</a
+              >
             </div>
+          </div>
         </div>
-        <div class="row text-center bg-light shadow rounded mt-3 mt-md-4 mx-2">
-            <a href="https://drive.google.com/file/d/1bXtUxi_KmV1qEjuF0IxYLzkJiIQbF4aA/view?usp=sharing" class="col-2 text-decoration-none my-4 my-md-2">
-                <div>
-                    <i class="bi bi-file-earmark-pdf"></i>
-                </div>
-                <div class="d-none d-md-block">
-                    <div>Download CV</div>
-                </div>
-            </a>
-            <a href="mailto:derissulistina@gmail.com" class="col-2 text-decoration-none my-4 my-md-2">
-                <div>
-                    <i class="bi bi-envelope"></i>
-                </div>
-                <div class="d-none d-md-block">
-                    <div>Mail</div>
-                </div>
-            </a>
-            <a href="https://wa.me/6281324462989" class="col-2 text-decoration-none my-4 my-md-2">
-                <div>
-                    <i class="bi bi-whatsapp"></i>
-                </div>
-                <div class="d-none d-md-block">
-                    <div>Whatsapp</div>
-                </div>
-            </a>
-            <a href="https://www.instagram.com/deris_sulistina" class="col-2 text-decoration-none my-4 my-md-2">
-                <div>
-                    <i class="bi bi-instagram"></i>
-                </div>
-                <div class="d-none d-md-block">
-                    <div>Instagram</div>
-                </div>
-            </a>
-            <a href="https://www.linkedin.com/in/eris-sulistina-422a66194" class="col-2 text-decoration-none my-4 my-md-2">
-                <div>
-                    <i class="bi bi-linkedin"></i>
-                </div>
-                <div class="d-none d-md-block">
-                    <div>Linkedin</div>
-                </div>
-            </a>
-            <a href="https://github.com/sejutaimpian" class="col-2 text-decoration-none my-4 my-md-2">
-                <div>
-                    <i class="bi bi-github"></i>
-                </div>
-                <div class="d-none d-md-block">
-                    <div>Github</div>
-                </div>
-            </a>
-        </div>
-    </section>
-    <section class="container pt-5" id="about">
-        <div class="row my-3 flex-row flex-md-row-reverse">
-            <div class="col-md-6 align-self-center">
-                <img src="image/business-pitch.png" alt="Ilustration" class="img-fluid px-2 px-md-1">
-            </div>
-            <div class="col-md-6">
-                <h1 class="fw-bolder text-center">ABOUT ME</h1>
-                <p>Aku menjadi seorang web developer melalui perjalanan yang panjang dalam pencarian jati diri programmer. Hasil dari pencarian itu adalah “Aku Seorang Web Developer”. Konsekuensi dari hasil pencarianku itu adalah aku harus selalu belajar teknologi, harus selalu mengasah kemampuan, harus selalu sharing kepada calon-calon developer, dan pantang berputus asa dalam situasi dan kondisi apapun.</p>
-                <p>Dalam hal pekerjaan, tentu saja aku akan jujur, bertanggungjawab, profesional, dan terbuka kepada atasan. Karena kunci hubungan yang baik adalah komunikasi.</p>
-                <p>Perihal <i>hard skill</i>, tentu saja saya menguasai HTML, CSS, Javascript, PHP dan MySQL. Saat ini saya telah berhasil membuat beberapa project menggunakan web framework <a href="https://codeigniter.com/"  class="text-decoration-none">Codeigniter4</a> dan mulai beralih ke <a href="https://laravel.com/" class="text-decoration-none">Laravel9</a></p>
-                <p>Perihal <i>soft skill</i>, saya banyak mengikuti organisasi mahasiswa di Kampus sehingga saya banyak belajar mengenai <i>leadership, organizational development, event organizing, time management, professionalism, responsibility, and more</i></p>
-            </div>
-        </div>
-    </section>
-    <section class="container pt-5" id="strength">
-        <div class="row my-3">
-            <div class="col-md-6 align-self-center">
-                <img src="image/business-data.png" alt="Ilustration" class="img-fluid px-5">
-            </div>
-            <div class="col-md-6">
-                <h1 class="fw-bolder text-center">MY STRENGTH</h1>
-                <ul class="list-group">                   
-                    <li class="list-group-item">
-                        <h4 class="mb-1">Basic Knowledge</h4>
-                        <div class="row">
-                            <div class="col-7">
-                                <i class="bi bi-check-circle pe-2"></i><span class="d-none d-lg-inline">Hypertext Markup Language</span><span class="d-inline d-lg-none">HTML</span>
-                            </div>
-                            <div class="col-5">
-                                <span class="badge bg-success rounded-pill float-end">Advanced</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-7">
-                                <i class="bi bi-check-circle pe-2"></i><span class="d-none d-lg-inline">Cascade Style Sheet</span><span class="d-inline d-lg-none">CSS</span>
-                            </div>
-                            <div class="col-5">
-                                <span class="badge bg-success rounded-pill float-end">Advanced</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-7">
-                                <i class="bi bi-check-circle pe-2"></i>Javascript
-                            </div>
-                            <div class="col-5">
-                                <span class="badge bg-success rounded-pill float-end">Advanced</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-7">
-                                <i class="bi bi-check-circle pe-2"></i>PHP
-                            </div>
-                            <div class="col-5">
-                                <span class="badge bg-success rounded-pill float-end">Advanced</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-7">
-                                <i class="bi bi-check-circle pe-2"></i>NodeJS
-                            </div>
-                            <div class="col-5">
-                                <span class="badge bg-danger rounded-pill float-end">Basic</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <h4 class="mb-1">Database Management System</h4>
-                        <div>
-                            <i class="bi bi-check-circle pe-2"></i>MySQL/MariaDB
-                            <span class="badge bg-success rounded-pill float-end">Advanced</span>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <h4 class="mb-1">CSS Framework</h4>
-                        <div>
-                            <i class="bi bi-check-circle pe-2"></i>Bootstrap
-                            <span class="badge bg-success rounded-pill float-end">Advanced</span>
-                        </div>
-                        <div>
-                            <i class="bi bi-check-circle pe-2"></i>TailwindCSS
-                            <span class="badge bg-secondary rounded-pill float-end">Intermediate</span>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <h4 class="mb-1">Web Framework</h4>
-                        <div>
-                            <i class="bi bi-check-circle pe-2"></i>Codeigniter4
-                            <span class="badge bg-success rounded-pill float-end">Advanced</span>
-                        </div>
-                        <div>
-                            <i class="bi bi-check-circle pe-2"></i>Laravel9
-                            <span class="badge bg-secondary rounded-pill float-end">Intermediate</span>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <h4 class="mb-1">Application Programming Interface</h4>
-                        <div>
-                            <i class="bi bi-check-circle pe-2"></i>Restfull API
-                            <span class="badge bg-success rounded-pill float-end">Advanced</span>
-                        </div>
-                        <div>
-                            <i class="bi bi-check-circle pe-2"></i>OpenApi
-                            <span class="badge bg-danger rounded-pill float-end">Basic</span>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <h4 class="mb-1">Version Control System</h4>
-                        <div>
-                            <i class="bi bi-check-circle pe-2"></i>Github
-                            <span class="badge bg-success rounded-pill float-end">Advanced</span>
-                        </div>
-                        <div>
-                            <i class="bi bi-check-circle pe-2"></i>Git
-                            <span class="badge bg-success rounded-pill float-end">Advanced</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="container pt-5" id="projects">
-        <div class="row my-3 g-2">
-            <div class="col-12"><h1 class="fw-bolder text-center">My Projects</h1></div>
-            <div class="col-md-6">
-                <div class="card">
-                    <img src="image/sifoster.png" class="card-img-top border-bottom" alt="Foto project sifoster">
-                    <div class="card-body">
-                      <h5 class="card-title">Sifoster</h5>
-                      <p class="card-text">Sifoster adalah singkatan dari sistem informasi terpadu. Project ini saya dibangun untuk memenuhi tugas kuliah. Project ini saya jadikan open source untuk membantu teman-teman kuliah saya yang kesulitan dalam menyelesaikan tugasnya.</p>
-                      <a href="https://github.com/sejutaimpian/sifoster" class="btn btn-primary float-end"><i class="bi bi-link-45deg pe-2"></i>Kunjungi Repository</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <img src="image/upgradedhibahweb.png" class="card-img-top border-bottom" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Upgradedhibahweb</h5>
-                      <p class="card-text">Upgradedhibahweb adalah sistem informasi untuk organisasi kemahasiswaan. Project ini tidak saya bangun dari nol, tapi saya hanya mengupgrade teknologi codeigniter3 menjadi Codeigniter4 dan memperbaiki hal-hal kecil yang menurut saya salah dan kurang tepat</p>
-                      <a href="https://github.com/sejutaimpian/upgrading-to-ci4" class="btn btn-primary float-end"><i class="bi bi-link-45deg pe-2"></i>Kunjungi Repository</a>
-                    </div>
-                </div>
-            </div>
-            <a href="https://github.com/sejutaimpian?tab=repositories" class="text-center text-decoration-none col-5 col-md-3 m-auto mt-2">See More<i class="bi bi-chevron-double-right ps-2"></i></a>
-        </div>
+        <a
+          href="https://github.com/sejutaimpian?tab=repositories"
+          class="text-center text-decoration-none col-5 col-md-3 m-auto mt-2"
+          >See More<i class="bi bi-chevron-double-right ps-2"></i
+        ></a>
+      </div>
     </section>
     <section class="container pt-5" id="sertificates">
-        <div class="row my-3 g-2">
-            <div class="col-12 border border-dark border-2 rounded text-center">
-                <h1 class="fw-bolder">My Sertificates</h1>
-                <div class="spinner-border my-2" role="status">
-                    <span class="visually-hidden">Loading...</span>
-                </div>
-                <p class="mb-0">Sertifikat masih dalam tahap perburuan.</p>
-                <p>Walaupun tanpa sertifikat, saya dapat mempertanggungajawabkan bahwa saya benar-benar bisa ngoding kok, hehe.</p>
-            </div>
+      <div class="row my-3 g-2">
+        <div class="col-12 border border-dark border-2 rounded text-center">
+          <h1 class="fw-bolder">My Sertificates</h1>
+          <div class="spinner-border my-2" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <p class="mb-0">Sertifikat masih dalam tahap perburuan.</p>
+          <p>
+            Walaupun tanpa sertifikat, saya dapat mempertanggungajawabkan bahwa
+            saya benar-benar bisa ngoding kok, hehe.
+          </p>
         </div>
+      </div>
     </section>
     <footer class="container-fluid text-bg-dark">
-        <div class="container">
-            <div class="row py-3">
-                <hr class="border border-success opacity-100 border-2">
-                <div class="col-md-4">
-                    <i class="bi bi-code-slash pe-2"></i>Sejutaimpian
-                </div>
-                <div class="col-md-4 text-center my-3 my-md-0">
-                   <span class="fw-bold">Jangan Putus Belajar</span>
-                </div>
-                <div class="col-md-4 text-start text-md-end">
-                    <a href="mailto:derissulistina@gmail.com" class="text-white"><i class="bi bi-envelope ps-2"></i></a>                     
-                    <a href="https://wa.me/6281324462989" class="text-white"><i class="bi bi-whatsapp ps-2"></i></a>                     
-                    <a href="https://www.instagram.com/deris_sulistina" class="text-white"><i class="bi bi-instagram ps-2"></i></a>                     
-                    <a href="https://www.linkedin.com/in/eris-sulistina-422a66194" class="text-white"><i class="bi bi-linkedin ps-2"></i></a>                     
-                    <a href="https://github.com/sejutaimpian" class="text-white"><i class="bi bi-github ps-2"></i></a>                                        
-                </div>
-            </div>
+      <div class="container">
+        <div class="row py-3">
+          <hr class="border border-success opacity-100 border-2" />
+          <div class="col-md-4">
+            <i class="bi bi-code-slash pe-2"></i>Sejutaimpian
+          </div>
+          <div class="col-md-4 text-center my-3 my-md-0">
+            <span class="fw-bold">Jangan Putus Belajar</span>
+          </div>
+          <div class="col-md-4 text-start text-md-end">
+            <a href="mailto:derissulistina@gmail.com" class="text-white"
+              ><i class="bi bi-envelope ps-2"></i
+            ></a>
+            <a href="https://wa.me/6281324462989" class="text-white"
+              ><i class="bi bi-whatsapp ps-2"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/deris_sulistina"
+              class="text-white"
+              ><i class="bi bi-instagram ps-2"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/eris-sulistina-422a66194"
+              class="text-white"
+              ><i class="bi bi-linkedin ps-2"></i
+            ></a>
+            <a href="https://github.com/sejutaimpian" class="text-white"
+              ><i class="bi bi-github ps-2"></i
+            ></a>
+          </div>
         </div>
+      </div>
     </footer>
     <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
